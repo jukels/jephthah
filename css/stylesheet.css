@@ -1,0 +1,126 @@
+.jumbotron {
+    position: relative;
+    z-index: -99;
+}
+
+#video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width: 100%;
+    /* object-fit: cover; */
+    -webkit-transform: scaleY(1.36); 
+    -moz-transform: scaleY(1.36);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    /* -moz-filter: sephia(100%); */
+    filter: blur(5px);
+}
+
+
+.h-rule {
+    border-bottom: 3px solid #fff;
+    width: 30%;
+}
+
+.jumbo-text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 4vw;
+    top: 80;
+    bottom: 0;
+    left: 0;
+    right: 10;
+    text-shadow: 0 0 3px #0c0385; 
+}
+
+.p-text {
+    color: #1b03f5a8;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.admission-btn {
+    color: #0c0385;
+    border: #0c0385 solid 3px;
+    padding: 15px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 0;
+}
+
+.admission-btn:hover {
+    background: #0c0385;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+/* .blue-overlay {
+    position: relative;
+}
+
+.blue-overlay:before {
+    content: '';
+    background: rgba(39, 69, 145, 0.44);
+    width: 100%;
+    min-height: 70vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    display: block;
+    background-size: cover;
+} */
+
+/* .x-section.blue-overlay .x-container {
+    position: relative;
+    z-index: 10;
+} */
+
+.footer-contents {
+    padding-top: 20px;
+}
+
+.footer {
+    /* background: #26262a; */
+    background: #32383dec; 
+    min-height: 150px;
+    min-width: 100%;
+}
+
+.paragraph {
+    color:#fff;
+}
+
+
+.fa-style {
+    color: #fff;
+    padding: 10px;
+}
+
+.fa-style:hover {
+    color: #0c0385;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;    
+}
+
+.a-style {
+    color: #fff;
+    padding-top: 5px;
+}
+
+.a-style:hover {
+    text-decoration: none;
+    color: #ffffffb9;
+}
+
+
